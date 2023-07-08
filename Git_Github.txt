@@ -1,8 +1,7 @@
 --Local'imizde repo oluşturabilmek için
-1-Çalışacağımız klazörü seçip yada yeni bir klasör oluşturup, klasörün yolunu gösteren bölüme cmd yazıp
+1-Çalışacağımız klasörü seçip yada yeni bir klasör oluşturup, klasörün yolunu gösteren bölüme cmd yazıp
 enter yapıp açmış olduğumuz klasörün yolunda terminalimizi açmış oluruz
-2-Ve bu dizinde açılan terminale GİT INIT küçük harflerler yazarız ve initilaze empty git repository yazısını
-gördüğümüzde bu çalışma alanımızda boş bir repository oluşturmuş oluruz.
+2-Ve bu dizinde açılan terminale GİT INIT küçük harflerle yazarız ve initialize empty git repository yazısını gördüğümüzde bu çalışma alanımızda boş bir repository oluşturmuş oluruz.
 3-Git init yaptıktan sonraki çalışma alanımızın ismine Working space denir.
 4-git add . komutuyla working space'de ki kodlarımızı staging area dediğimiz bekleme alanına taşırız
 5-git commit -m "version adı" kodunu yazarak stage'deki kodlarımızdan version oluşturmuş oluruz.
@@ -15,7 +14,9 @@ gördüğümüzde bu çalışma alanımızda boş bir repository oluşturmuş ol
 Aynı şekilde adresi tanımladığımız için sadece git push komutu ilede kodlarımızı gönderebiliriz
 
 --Restore/Branch ve Stash komutları
-
+1- Working Space ve Staging Area daki yapmış olduğumuz değişiklikleri geri alabiliriz.
+Working Space de yaptığımız bir güncellemeyi geri almak için ---> git restore . komutuyla yapılan değişiklikleri geri alabiliriz
+Eğer Stage den geri almak istersek --> git restore -- staged .
 
 
 
