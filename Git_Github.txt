@@ -16,7 +16,7 @@ Aynı şekilde adresi tanımladığımız için sadece git push komutu ilede kod
 --Restore/Branch ve Stash komutları
 1- Working Space ve Staging Area daki yapmış olduğumuz değişiklikleri geri alabiliriz.
 Working Space de yaptığımız bir güncellemeyi geri almak için ---> git restore . komutuyla yapılan değişiklikleri geri alabiliriz
-Eğer Stage den geri almak istersek --> git restore -- staged .
+Eğer Stage den geri almak istersek --> git restore -- staged . :))
 
 
 
